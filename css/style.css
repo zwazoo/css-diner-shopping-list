@@ -32,7 +32,6 @@ body {
 }
 
 p {
-    line-height: 40px;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -52,9 +51,10 @@ label, .ba-list li {
     cursor:pointer;
     background-color: #88839E;
     color: white;
+}
+label {
     padding: 10px;
 }
-
 .ba-list li:nth-child(2n) label, .ba-list li:nth-child(2n) {
     background-color: #7A7593;
 }
